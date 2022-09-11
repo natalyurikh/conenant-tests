@@ -1,6 +1,6 @@
 # Covenant tests
 
-Project is a  testing framework  for application Covenant
+Testing framework  for application Covenant
 Find application documentation here [https://github.com/cobbr/Covenant/wiki]
 
 
@@ -12,10 +12,8 @@ Find application documentation here [https://github.com/cobbr/Covenant/wiki]
 - `step`: Services for performing logical business steps
 
 ## Build & deploy
-for base e2e_suite:
-mvn test
-for custom  suite:
-mvn test -DsuiteFile=<path to suite>
+for base e2e_suite: `mvn test`
+for custom  suite: `mvn test -DsuiteFile=<path to suite>`
 
 ## Design Patterns
 
