@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2E suite" parallel="tests">
+
+  <test name="Login Test">
+    <classes>
+      <class name="com.natalya.challenge.covenant.scenario.login.LoginTest"/>
+    </classes>
+  </test>
+
+  <test name="E2E Test">
+    <classes>
+      <class name="com.natalya.challenge.covenant.scenario.e2e.E2eTest"/>
+    </classes>
+  </test>
+
+
+</suite>
